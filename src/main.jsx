@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Login from './components/login.jsx'
+import DSNV from './components/dsNhanVien.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/danhsachNV",
-    element: <Login/>,
+    element: <DSNV/>,
   },
 
 ]);
